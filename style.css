@@ -1,0 +1,72 @@
+ body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+           background: #fff7f7;
+            background: linear-gradient(90deg, rgba(255, 247, 247, 1) 0%, rgba(237, 237, 255, 1) 20%, rgba(0, 212, 255, 1) 100%);
+        }
+
+        .calculadora {
+            background: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-wrap: anywhere;
+            border-color: rgb(24, 24, 24);
+            box-shadow: 0 0 10px #ccc;
+            display: inline-block;
+            align-items: center;
+        }
+
+
+        #display {
+            width: 100%;
+            height: 40px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: right;
+            text-emphasis-color: white;
+            padding: 5px;
+            background: white;
+            
+        }
+
+   
+        button {
+            box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	        background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	        background-color:#007dc1;
+	        border-radius:3px;
+	        border:1px solid #124d77;
+	        display:inline-block;
+	        cursor:ponter;
+	        color:#ffffff;
+	        font-family:Arial;
+	        font-size:13px;
+	        padding:6px 24px;
+	        text-decoration:none;
+	        text-shadow:0px 1px 0px #154682;
+            width: 50px;
+            height: 40px;
+            margin: 3px  
+
+        }
+        #apaga {
+            box-shadow:inset 0px 1px 0px 0px red;
+	        background:linear-gradient(to bottom, #8b0000 5%, red 100%);
+	        background-color: red;
+	        border-radius: 3px;
+	        border:1px solid  #8b0000;
+	        display:inline-block;
+	        cursor:pointer;
+	        color:#ffffff;
+	        font-family:Arial;
+	        font-size:13px;
+	        padding:15px 24px;
+	        text-decoration:solid;
+	        text-shadow:0px 1px 0px red;
+            width: 1px;
+            height: 20  px;
+            margin: 2.80px
+
+        }
